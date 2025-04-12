@@ -1,0 +1,22 @@
+*{
+    background-color: white;
+}
+
+button{
+    background-color: brown;
+    color: aquamarine;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: burlywood;
+    cursor: pointer;
+    box-shadow: 0 0 9px red;
+    border-top: solid 3px goldenrod;
+    border-radius: 70%;
+    border-bottom: solid 3px darkgoldenrod;
+    border-left:solid 3px gold;
+    border-right:solid 3px silver;
+    transition: 1s;
+}
